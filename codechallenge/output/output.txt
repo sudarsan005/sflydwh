@@ -1,0 +1,2 @@
+1 Customer Key:96f55c7d8f44 Last Name:Steve LTV Value:103369.06666666667
+2 Customer Key:96f55c7d8f41 Last Name:Sam LTV Value:62576.8
