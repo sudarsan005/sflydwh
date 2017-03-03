@@ -4,7 +4,8 @@ I have used GSON library to parse JSON file. To run just import the file and add
 
 # Assumption
 1. To identify the week I have used week number of the calendar year. i.e (01/01/2017) will be week1.
-2. The LTV value is a double value with high precision and is assumed to be unique for each cutomer.
+2. There may be multiple expenditures made by a customer in a single week. I have taken the expenditure per visit as the average of all these individual expenditure amounts.
+3. The LTV value is a double value with high precision and is assumed to be unique for each cutomer.
 
 # Data Structure
 1. The customer, order, vist and image data are ingested using custom data structure built on top of object oriented programming. Customer, order, vist and image extend from super class called Subject and each event is recorded by Event Class.
